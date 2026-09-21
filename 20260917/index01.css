@@ -1,0 +1,32 @@
+p {
+    color: #ff0000;
+}
+.news02 {
+    color: #176b7a;
+}
+.news {
+    color: #000000;
+}
+#novel {
+    color: #00ffff;
+}
+input {
+    color: #082150;
+}
+input[type='password'] {
+    color: #af1d1d;
+}
+input.idpw {
+    boreder: 1px solid #ccc;
+    outline: none;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+}
+/* input.idpw 붙여서 사용
+    input.idpw 다음 중괄호 붙여서 사용하면 x
+*/
+
+/* 
+    6. 자손 후손 선택자 ****
+*/

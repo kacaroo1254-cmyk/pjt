@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>INDEX02</title>
+
+    <style>
+        /* 
+        css 코드
+        border-collapse를 짜부시키겟다
+        너비는 500px
+        border 1px solid는 실선
+        padding 은 표안에데이터가 가장자리로부터 5px의 거리를 가진다
+         */
+        table{
+            border-collapse: collapse;
+            width: 500px;
+        }
+        td{
+            border: 1px solid #ccc;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 표( = 엑셀에서 표)
+     무조건 행을 먼저 
+     <tr></tr> : 행
+     <td></td> : 열
+     받드시 행안에 열을 집어넣어야 하며 tr안에말고 td안에 데이터를 집어넣어야함 
+     <table>
+        <tr>
+            <td>AA</td>
+            <td>BB</td>
+        </tr>
+        <tr>
+            <td>CC</td>
+            <td>DD</td>
+        </tr>
+        <tr>
+            <td>EE</td>
+            <td>FF</td>
+        </tr>
+        <tr>
+            <td>GG</td>
+            <td>
+                <img src="../img/gyj.jpg" width="200px">
+            </td>
+        </tr>
+     </table>-->
+
+     <!-- <table> 
+        <tr>
+            <td></td>
+            <td>국어</td>
+            <td>영어</td>
+            <td>수학</td>
+        </tr>
+        <tr>
+            <td>홍길동</td>
+            <td>90</td>
+            <td>100</td>
+            <td>75</td>
+        </tr>
+        <tr>
+            <td>박찬호</td>
+            <td>100</td>
+            <td>80</td>
+            <td>75</td>
+        </tr>
+        <tr>
+            <td>박세리</td>
+            <td>75</td>
+            <td>85</td>
+            <td>95</td>
+        </tr>
+     </table>-->
+     <table>
+        <!-- colspn 열을 가로로 합칠때 합쳐진 칸들은 지워야함
+             rowspn 세로로 합칠때 합쳐진 칸들은 지워야함 
+             둘다 기준이 되는 코드에 사용-->
+        <tr>
+            <td rowspan="2">점수</td>
+            <td colspan="3">1학기</td>
+            <td colspan="3">2학기</td>
+        </tr>
+        <tr>
+            <td>국어</td>
+            <td>영어</td>
+            <td>수학</td>
+            <td>국어</td>
+            <td>영어</td>
+            <td>수학</td>
+        </tr>
+        <tr>
+            <td>홍길동</td>
+            <td>90</td>
+            <td>100</td>
+            <td>50</td>
+            <td>85</td>
+            <td>90</td>
+            <td>75</td>
+        </tr>
+        <tr>
+            <td>박찬호</td>
+            <td>100</td>
+            <td>80</td>
+            <td>75</td>
+            <td>95</td>
+            <td>65</td>
+            <td>75</td>
+        </tr>
+        <tr>
+            <td>박세리</td>
+            <td>75</td>
+            <td>85</td>
+            <td>95</td>
+            <td>55</td>
+            <td>85</td>
+            <td>100</td>
+        </tr>
+     </table>
+    <p>h &nbsp;&nbsp;&nbsp; ello</p>
+</body>
+</html>

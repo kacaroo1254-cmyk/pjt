@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Home</title>
+</head>
+<body>
+    <!-- 텍스트 관련 태그 -->
+     <!-- 제목 -->
+     <h1>Hello</h1>
+     <h2>Hello</h2>
+     <h3>Hello</h3>
+     <h4>Hello</h4>
+     <h5>Hello</h5>
+     <h6>Hello</h6>
+     <!-- ctal+b 익스플로러 창 열고닫기 -->
+      <!-- extension에서 open in browser (TechER)
+       깔고 alt+b 하면 바로 익스플로러 열 수 있다.  -->
+    <!-- 문단 -->
+       <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis quibusdam laboriosam beatae accusamus nulla quam minima hic esse porro blanditiis. Voluptate corrupti ea perspiciatis aliquam velit molestiae placeat cumque neque?</P>
+       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum excepturi, recusandae, id aspernatur odio laborum iste eos a delectus at voluptatum provident mollitia incidunt veritatis tempore suscipit sunt amet aliquam.</p>
+       <br><br><br><br><br>
+       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, deleniti veniam maxime deserunt error natus harum debitis, voluptatem autem eos necessitatibus consectetur, et doloribus eum laboriosam placeat delectus earum incidunt.</p>   
+       <!-- 브라우저 해석기 : 인터프린터
+            해석하면서 바로 렌더링 -->
+    <!-- 개행 -->
+    <br><br>
+    <h3>hello</h3>
+    <!-- 가로 구분선 -->
+     <hr>
+     <h3>hello</h3>
+
+
+     <!-- 이미지 삽입
+      ./ : 현재 디렉터리
+      ../ : 상위 디렉터리
+      / : 루트 경로 
+      alt : 그림을 렌더링 하지 못할 때, 그림이 깨질 때 글자가 나옴
+      title : 이미지에 마우스를 올릴 때 나오는 텍스트 -->
+    <img src="img/gyj.jpg" width="300">
+    <br>
+    <img src="../img/gyj.jpg" alt="이 사진은 고윤정입니다."
+            title="고윤정">
+
+    <!-- 양식 태그
+     양식을 만드는 form 태그로 시작 -->
+     <form
+        action="http://~~~~~~~~~~"
+        method="post">
+
+        ID: <input type="text" placeholder="Input new Member ID"><br>
+        PW: <input type="password" placeholder="Input new Member PW"><br>
+        Email <input type="email" placeholder="Input new Member Email"><br>
+        <select>
+            <option>--- 국가 선택---</option>
+            <option>--- 한국---</option>
+            <option>--- 미국---</option>
+            <option>--- 영국---</option>
+        </select>
+        <br>
+        Hobby:  <input type="checkbox" name="Hobby"> 축구
+                <input type="checkbox" name="Hobby"> 농구
+                <input type="checkbox" name="Hobby"> 배구
+                <input type="checkbox" name="Hobby"> 야구
+                <input type="checkbox" name="Hobby"> 당구
+        <!-- 커서를 확장하는 단축키 ctal+alt 방향키로 사용
+             노트패드가 같은경우는 alt키로 함 -->
+        <br>
+        Gender: <input type="radio" name="Gender">Woman
+                <input type="radio" name="Gender">Man
+        <br>
+        <!-- button은 버튼이고
+         submit은 전송용 버튼 전송할 주소는 form action에 작성
+         method 전송방식 get, post (받는서버 역시 받는 방식을 맞춰야지 받을 수 있음) -->
+        <input type="button" value="SIGN-UP">
+        <input type="reset" value="RESET">
+        
+     </form>
+    <br><br><br><br><br><br>
+</body>
+</html>

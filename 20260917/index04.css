@@ -1,0 +1,17 @@
+div {
+    width: 200px;
+    height: 200px;
+}
+
+div.box01 {
+    background-color: #f00;
+}
+
+div.box02 {
+    background-color: #0f0;
+    margin: 50px;
+}
+
+div.box03 {
+    background-color: #00f;
+}

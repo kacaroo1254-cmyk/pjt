@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDEX04</title>
+</head>
+<body>
+    <!-- 
+    form(양식 태그)
+    input 입력하는 칸을 태그
+    클라이언트에서 서버로 정보를 전송하는 방식 4가지
+    Get, Post 
+    Get 도메인에 붙어서 가는방식
+     그래서 보내는 정보에 파일이 있다면 post방식으로 보낼수 있고 get방식은 사용불가
+    Post 도메인에 붙어서 가는방식이 아님(보안적인 요소 추가)
+    -->
+    <form
+    action="서버 url"
+    method="post">
+        <input type="text" placeholder="회원 ID를 입력하세요.">
+        <br>
+        <input type="password" placeholder="회원 PW를 입력하세요.">
+        <br>
+        <input type="email" placeholder="회원 MAIL을 입력하세요.">
+        <br>
+        <input type="number" placeholder="회원 AGE를 입력하세요.">
+        <br>
+        <input type="file">
+        <br>
+        <input type="date">
+        <br>
+        <input type="datetime-local">
+        <br>
+        <select>
+            <option>한국</option>
+            <option>미국</option>
+            <option>영국</option>
+            <option>일본</option>
+            <option>중국</option>
+        </select>
+        <br>
+        <input type="checkbox" name="hobby">축구
+        <input type="checkbox" name="hobby">농구
+        <input type="checkbox" name="hobby">배구
+        <input type="checkbox" name="hobby">당구
+        <input type="checkbox" name="hobby">탁구
+        <br>
+        <input type="radio" name="gender">남자
+        <input type="radio" name="gender">여자
+        <br>
+        <input type="color">
+        <br>
+        <input type="range" max="10" min="0" step="2" value="4">
+        <br>
+        <textarea></textarea>
+        <br>
+        <input type="button" value="회원가입">
+        <input type="reset" value="초기화">
+
+    </form>
+</body>
+</html>

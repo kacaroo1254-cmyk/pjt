@@ -1,0 +1,43 @@
+/* 
+    6. 자손 후손 선택자 ****    
+*/
+
+/* 후손 선택자 */
+div p {
+    color: #ff0000;
+}
+/* 자손 선택자 */
+div > p {
+    color: #0000ff;
+}
+/* 7. 동위 선택자 ** */
+h2 + p {
+    color: #0000ff
+}
+
+h2 ~ P {
+    font-weight: bold
+}
+
+/* 8.반응 선택자
+    hover - 마우스에  올렸을때만
+ */
+
+ a {
+    text-decoration: none;
+    color: #242424;
+ }
+ a:hover {
+    text-decoration: underline;
+ }
+ input {
+    width: 300px;
+    padding: 10px;
+    color: #ff0000;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+ }
+ input:focus {
+    background-color: #ccc;
+ }
