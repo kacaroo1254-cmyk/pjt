@@ -1,0 +1,26 @@
+#wrap {
+    width: 800px;
+    height: 800px;
+    background-color: #141699;
+    margin: 0 auto;
+}
+
+#wrap div.special > p {
+    font-weight: bold;
+    color: #0ac241;
+    margin: 0 auto;
+    padding: 20px 0 20px 0; 
+    text-align: center;
+}
+
+#wrap div.today {
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em; 
+}
+
+#wrap div.COUPON ul {
+    width: 600px;
+    background-color: #fff;
+    margin: 0 100px;
+}
